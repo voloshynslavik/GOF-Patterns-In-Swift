@@ -22,13 +22,13 @@ final class FastSwitch: UISwitch, MediatorHolder {
         }
     }
 
-    func switchChanged(_ switch: UISwitch) {
+    @objc func switchChanged(_ switch: UISwitch) {
         mediator?.onFastChanged(on: isOn)
     }
 
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        addTarget(self, action: #selector(FastSwitch.switchChanged(_:)), for: UIControlEvents.valueChanged)
+        addTarget(self, action: #selector(FastSwitch.switchChanged(_:)), for: UIControl.Event.valueChanged)
     }
 }

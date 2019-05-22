@@ -9,29 +9,32 @@ import Foundation
 
 class BaseHttpManager: NSObject {
 
-    fileprivate lazy var session: URLSession! = {
+    fileprivate lazy var session: URLSession = {
         let config  = URLSessionConfiguration.default
         let session = URLSession(configuration: config)
         return session
     }()
-
+    
+    @discardableResult
     func get(_ url: String, completionHandler: @escaping ((Data?, URLResponse?, Error?) -> Void))
         -> URLSessionDataTask? {
-        return makeRequest(url, method: "GET", completionHandler: completionHandler)
+            return makeRequest(url, method: "GET", completionHandler: completionHandler)
     }
-
+    
+    @discardableResult
     func makeRequest(_ url: String, method: String,
                      completionHandler: @escaping ((Data?, URLResponse?, Error?) -> Void))
         -> URLSessionDataTask? {
-        guard let nsurl = URL(string: url) else {
-            print("Can't create NSURL object for \(url)")
-            return nil
-        }
+            guard let nsurl = URL(string: url) else {
+                print("Can't create NSURL object for \(url)")
+                return nil
+            }
 
-        var request: URLRequest = URLRequest(url: nsurl)
-        request.httpMethod = method
-        let task = session.dataTask(with: request, completionHandler:completionHandler)
-        task.resume()
-        return task
+            var request: URLRequest = URLRequest(url: nsurl)
+            request.httpMethod = method
+            let task = session.dataTask(with: request, completionHandler:completionHandler)
+            task.resume()
+            
+            return task
     }
 }

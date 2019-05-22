@@ -18,9 +18,9 @@ final class CustomLabel: UIView {
             textStyle.alignment = NSTextAlignment.center
 
             let textFontAttributes = [
-                NSFontAttributeName: UIFont.boldSystemFont(ofSize: 32),
-                NSForegroundColorAttributeName: UIColor.black,
-                NSParagraphStyleAttributeName: textStyle
+                NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 32),
+                NSAttributedString.Key.foregroundColor: UIColor.black,
+                NSAttributedString.Key.paragraphStyle: textStyle
             ]
             text.draw(in: rect, withAttributes: textFontAttributes)
         }

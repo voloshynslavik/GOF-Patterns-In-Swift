@@ -44,10 +44,6 @@
 		7A2C52891ED9B40D00E6439C /* ProxySecretInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C52881ED9B40D00E6439C /* ProxySecretInformation.swift */; };
 		7A2C528C1EDAAE3E00E6439C /* PrototypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C528B1EDAAE3E00E6439C /* PrototypeViewController.swift */; };
 		7A39656A1EE8761400830F23 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3965691EE8761400830F23 /* Coffee.swift */; };
-		7A3984381EB732C6008B3F13 /* BaseHttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3984331EB732C6008B3F13 /* BaseHttpManager.swift */; };
-		7A3984391EB732C6008B3F13 /* PXPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3984351EB732C6008B3F13 /* PXPage.swift */; };
-		7A39843A1EB732C6008B3F13 /* PXPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3984361EB732C6008B3F13 /* PXPhoto.swift */; };
-		7A39843B1EB732C6008B3F13 /* PXManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3984371EB732C6008B3F13 /* PXManager.swift */; };
 		7A3A77561EAF03B50007716F /* DecoratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A77551EAF03B50007716F /* DecoratorViewController.swift */; };
 		7A3A77581EAF08930007716F /* DashLineBorderDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A77571EAF08930007716F /* DashLineBorderDecorator.swift */; };
 		7A3A775A1EAF08B10007716F /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A77591EAF08B10007716F /* Component.swift */; };
@@ -136,6 +132,9 @@
 		7AECB6A61E87EA87002A2D50 /* TextRepresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AECB6A51E87EA87002A2D50 /* TextRepresenter.swift */; };
 		7AECB6A81E87EB0E002A2D50 /* LabelTextRepresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AECB6A71E87EB0E002A2D50 /* LabelTextRepresenter.swift */; };
 		7AECB6AA1E87EBFA002A2D50 /* TextViewTextRepresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AECB6A91E87EBFA002A2D50 /* TextViewTextRepresenter.swift */; };
+		D31CA8D722958CFD00C46AC6 /* PicsumPhotosManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CA8D322958CFD00C46AC6 /* PicsumPhotosManager.swift */; };
+		D31CA8D822958CFD00C46AC6 /* PicsumPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CA8D522958CFD00C46AC6 /* PicsumPhoto.swift */; };
+		D31CA8D922958CFD00C46AC6 /* BaseHttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CA8D622958CFD00C46AC6 /* BaseHttpManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -178,10 +177,6 @@
 		7A2C52881ED9B40D00E6439C /* ProxySecretInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProxySecretInformation.swift; sourceTree = "<group>"; };
 		7A2C528B1EDAAE3E00E6439C /* PrototypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrototypeViewController.swift; sourceTree = "<group>"; };
 		7A3965691EE8761400830F23 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
-		7A3984331EB732C6008B3F13 /* BaseHttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseHttpManager.swift; sourceTree = "<group>"; };
-		7A3984351EB732C6008B3F13 /* PXPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXPage.swift; sourceTree = "<group>"; };
-		7A3984361EB732C6008B3F13 /* PXPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXPhoto.swift; sourceTree = "<group>"; };
-		7A3984371EB732C6008B3F13 /* PXManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXManager.swift; sourceTree = "<group>"; };
 		7A3A77551EAF03B50007716F /* DecoratorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoratorViewController.swift; sourceTree = "<group>"; };
 		7A3A77571EAF08930007716F /* DashLineBorderDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashLineBorderDecorator.swift; sourceTree = "<group>"; };
 		7A3A77591EAF08B10007716F /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
@@ -270,6 +265,9 @@
 		7AECB6A51E87EA87002A2D50 /* TextRepresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextRepresenter.swift; sourceTree = "<group>"; };
 		7AECB6A71E87EB0E002A2D50 /* LabelTextRepresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTextRepresenter.swift; sourceTree = "<group>"; };
 		7AECB6A91E87EBFA002A2D50 /* TextViewTextRepresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewTextRepresenter.swift; sourceTree = "<group>"; };
+		D31CA8D322958CFD00C46AC6 /* PicsumPhotosManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicsumPhotosManager.swift; sourceTree = "<group>"; };
+		D31CA8D522958CFD00C46AC6 /* PicsumPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicsumPhoto.swift; sourceTree = "<group>"; };
+		D31CA8D622958CFD00C46AC6 /* BaseHttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseHttpManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,28 +399,9 @@
 		7A3984311EB732C6008B3F13 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				7A3984321EB732C6008B3F13 /* 500PX */,
+				D31CA8D222958CFD00C46AC6 /* Picsum Photos */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		7A3984321EB732C6008B3F13 /* 500PX */ = {
-			isa = PBXGroup;
-			children = (
-				7A3984331EB732C6008B3F13 /* BaseHttpManager.swift */,
-				7A3984371EB732C6008B3F13 /* PXManager.swift */,
-				7A3984341EB732C6008B3F13 /* Model */,
-			);
-			path = 500PX;
-			sourceTree = "<group>";
-		};
-		7A3984341EB732C6008B3F13 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				7A3984351EB732C6008B3F13 /* PXPage.swift */,
-				7A3984361EB732C6008B3F13 /* PXPhoto.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		7A3A77541EAF03990007716F /* Decorator */ = {
@@ -743,6 +722,24 @@
 			name = Abstraction;
 			sourceTree = "<group>";
 		};
+		D31CA8D222958CFD00C46AC6 /* Picsum Photos */ = {
+			isa = PBXGroup;
+			children = (
+				D31CA8D322958CFD00C46AC6 /* PicsumPhotosManager.swift */,
+				D31CA8D422958CFD00C46AC6 /* Model */,
+				D31CA8D622958CFD00C46AC6 /* BaseHttpManager.swift */,
+			);
+			path = "Picsum Photos";
+			sourceTree = "<group>";
+		};
+		D31CA8D422958CFD00C46AC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D31CA8D522958CFD00C46AC6 /* PicsumPhoto.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -770,7 +767,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = voloshynslavik;
 				TargetAttributes = {
 					7A03FD571E5E41C600A1753A = {
@@ -781,7 +778,7 @@
 			};
 			buildConfigurationList = 7A03FD531E5E41C600A1753A /* Build configuration list for PBXProject "GOF Patterns" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -816,7 +813,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A198EEC1EA0E89600ED5F06 /* GroupAnimations.swift in Sources */,
-				7A39843B1EB732C6008B3F13 /* PXManager.swift in Sources */,
 				7A08309B1E770B750069CC11 /* TemplateMethodViewController.swift in Sources */,
 				7A08308D1E7561A40069CC11 /* StateB.swift in Sources */,
 				7A5E7B3A1E5F3307005FBB64 /* CommandViewController.swift in Sources */,
@@ -829,6 +825,7 @@
 				7A2039581E66140200D003C2 /* Hostel.swift in Sources */,
 				7A4EB7F11E6C1E8700ECDBE8 /* FilterIterator.swift in Sources */,
 				7A95A7F21E5E4349000B4045 /* PatternsTableViewController.swift in Sources */,
+				D31CA8D722958CFD00C46AC6 /* PicsumPhotosManager.swift in Sources */,
 				7A5E7B441E5F429F005FBB64 /* RunSlowlyCommand.swift in Sources */,
 				7A6F44D01E70A52000B4042C /* ObserverViewController.swift in Sources */,
 				7A6F44CF1E70A52000B4042C /* DateViewController.swift in Sources */,
@@ -870,6 +867,7 @@
 				7A9AF8941EED7DE600943326 /* USATimeFormatter.swift in Sources */,
 				7A4EB7E21E6B00F600ECDBE8 /* SubstractionExpression.swift in Sources */,
 				7A06148A1ECA0A1F00A872E8 /* DrawableImage.swift in Sources */,
+				D31CA8D922958CFD00C46AC6 /* BaseHttpManager.swift in Sources */,
 				7A9AF88A1EED793A00943326 /* TimeFormatter.swift in Sources */,
 				7A3A77561EAF03B50007716F /* DecoratorViewController.swift in Sources */,
 				7A4EB7F61E6C7EE100ECDBE8 /* MediatorViewController.swift in Sources */,
@@ -896,7 +894,6 @@
 				7A8094B01EC38D85003D3CBC /* FlyweightViewController.swift in Sources */,
 				7A198EE61EA0E47700ED5F06 /* AnimationComposite.swift in Sources */,
 				7AAB76D71E80758E0099C0B6 /* DefaultLabelAdapter.swift in Sources */,
-				7A3984381EB732C6008B3F13 /* BaseHttpManager.swift in Sources */,
 				7A2039561E6612E800D003C2 /* BookRequest.swift in Sources */,
 				7A4EB7E71E6B40DF00ECDBE8 /* IteratorViewController.swift in Sources */,
 				7A777D911EBDF0A800C16228 /* ImageCollectionViewCell.swift in Sources */,
@@ -909,7 +906,6 @@
 				7A4EB7E01E6B001900ECDBE8 /* AddExpression.swift in Sources */,
 				7A5E7B3C1E5F3B31005FBB64 /* Command.swift in Sources */,
 				7A06148C1ECA0AAE00A872E8 /* FlyweightFactory.swift in Sources */,
-				7A3984391EB732C6008B3F13 /* PXPage.swift in Sources */,
 				7A4EB7F81E6C807200ECDBE8 /* Mediator.swift in Sources */,
 				7A2C528C1EDAAE3E00E6439C /* PrototypeViewController.swift in Sources */,
 				7A0830941E759BFA0069CC11 /* Strategy.swift in Sources */,
@@ -917,13 +913,13 @@
 				7A9AF8971EEDAEAD00943326 /* UkraineFactory.swift in Sources */,
 				7A9AF88C1EED795400943326 /* Currency.swift in Sources */,
 				7A3A775C1EAF10D30007716F /* ComponentView.swift in Sources */,
+				D31CA8D822958CFD00C46AC6 /* PicsumPhoto.swift in Sources */,
 				7A198EE81EA0E69200ED5F06 /* AlphaAnimation.swift in Sources */,
 				7A8C5D361EF04EF60013A9DB /* Pizza.swift in Sources */,
 				7A2C52851ED9B11A00E6439C /* InformationReader.swift in Sources */,
 				7A2C52831ED99FBE00E6439C /* ProxyViewController.swift in Sources */,
 				7A0614841ECA092D00A872E8 /* EmojiView.swift in Sources */,
 				7A08309F1E7722200069CC11 /* ImageFile.swift in Sources */,
-				7A39843A1EB732C6008B3F13 /* PXPhoto.swift in Sources */,
 				7A5E7B3E1E5F3FBC005FBB64 /* CommandInvoker.swift in Sources */,
 				7A4EB7DA1E6AF89F00ECDBE8 /* InterpreterContext.swift in Sources */,
 				7A2039541E66127800D003C2 /* BookRequestHandler.swift in Sources */,
@@ -975,15 +971,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1025,15 +1029,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1066,11 +1078,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PatternsExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.voloshyn.gof-patterns";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1081,11 +1095,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PatternsExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.voloshyn.gof-patterns";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

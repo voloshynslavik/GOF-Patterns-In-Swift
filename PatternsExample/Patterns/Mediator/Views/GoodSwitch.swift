@@ -22,14 +22,14 @@ final class GoodSwitch: UISwitch, MediatorHolder {
         }
     }
 
-     func switchChanged(_ switch: UISwitch) {
+    @objc func switchChanged(_ switch: UISwitch) {
         mediator?.onGoodChanged(on: isOn)
     }
 
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        addTarget(self, action: #selector(GoodSwitch.switchChanged(_:)), for: UIControlEvents.valueChanged)
+        addTarget(self, action: #selector(GoodSwitch.switchChanged(_:)), for: UIControl.Event.valueChanged)
     }
 
 }

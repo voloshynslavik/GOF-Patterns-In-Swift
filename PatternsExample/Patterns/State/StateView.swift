@@ -29,7 +29,7 @@ final class StateView: UIView {
         self.state = state
     }
 
-    func didTap() {
+    @objc func didTap() {
         state?.handleTap(stateView: self)
     }
 }

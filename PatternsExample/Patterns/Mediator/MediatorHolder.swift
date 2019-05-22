@@ -10,6 +10,6 @@ import UIKit
 
 protocol MediatorHolder {
 
-    weak var mediator: Mediator? {get set}
+    var mediator: Mediator? {get set}
 
 }

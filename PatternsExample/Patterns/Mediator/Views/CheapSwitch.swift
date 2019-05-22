@@ -22,13 +22,13 @@ final class CheapSwitch: UISwitch, MediatorHolder {
         }
     }
 
-    func switchChanged(_ switch: UISwitch) {
+    @objc func switchChanged(_ switch: UISwitch) {
         mediator?.onCheapChanged(on: isOn)
     }
 
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        addTarget(self, action: #selector(CheapSwitch.switchChanged(_:)), for: UIControlEvents.valueChanged)
+        addTarget(self, action: #selector(CheapSwitch.switchChanged(_:)), for: UIControl.Event.valueChanged)
     }
 }
